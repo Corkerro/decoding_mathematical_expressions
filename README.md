@@ -27,8 +27,16 @@ This assignment is to create a program that decodes all valid variants of an enc
 
 ## Run
 
+### Compilation
+
+```sh
 make
+```
+
+### Starting the program
+```sh
 ./part_of_the_matrix [operand1] [operation] [operand2] [result]
+```
 
 ## Examples of use
 
