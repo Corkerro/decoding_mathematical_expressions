@@ -52,11 +52,12 @@ usage: ./part_of_the_matrix [operand1] [operation] [operand2] [result]$
 ```
 Invalid operand: xxx$  
 
+
 ```sh
 ./part_of_the_matrix "xxx" "??" "?0?" "1?0" | cat -e
 ```
-Invalid operation: ??$  
-
+<font color="red">Invalid operation: ??</font>$  
+ 
 ```sh
 ./part_of_the_matrix "???" "??" "XXX" "1?0" | cat -e
 ```
