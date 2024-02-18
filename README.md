@@ -3,7 +3,7 @@
 ## Participants
 
 - **TeamLead**: [rosinnii](https://lms.khpi.ucode-connect.study/users/rosinnii)
-- **Participant**: [voryshchuk](https://lms.khpi.ucode-connect.study/users/voryshchuk)
+- **Teammate**: [voryshchuk](https://lms.khpi.ucode-connect.study/users/voryshchuk)
 
 ## Description
 
