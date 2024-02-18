@@ -1,38 +1,38 @@
-# Задание: Часть Матрицы
+# Assignment: Part of the Matrix
 
-## Участники
+## Participants
 
-- **Тимлид**: [rosinnii](https://lms.khpi.ucode-connect.study/users/rosinnii)
-- **Участник**: [voryshchuk](https://lms.khpi.ucode-connect.study/users/voryshchuk)
+- **Timelid**: [rosinnii](https://lms.khpi.ucode-connect.study/users/rosinnii)
+- **Participant**: [voryshchuk](https://lms.khpi.ucode-connect.study/users/voryshchuk)
 
-## Описание
+## Description
 
-Данное задание представляет собой создание программы, декодирующей все допустимые варианты зашифрованного математического выражения. Программа принимает четыре аргумента:
+This assignment is to create a program that decodes all valid variants of an encrypted mathematical expression. The program accepts four arguments:
 
-- целые операнды: `operand1` и `operand2`
-- операцию `operation`
-- результат математической операции `result`
+- integer operands: `operand1` and `operand2`
+- `operation`
+- the result of the mathematical operation `result`
 
-## Реализация
+## Implementation
 
-1. Ваша программа должна поддерживать четыре математические операции: сложение `+`, вычитание `-`, умножение `*` и деление `/`.
-2. Операнды и результат могут содержать скрытые цифры, обозначенные символом `?`.
-3. Программа не должна выводить нули, если они находятся перед полным числом.
-4. Дополнительно реализуйте обработку ошибок, таких как неверное количество аргументов, недопустимая операция, неверные операнды и результат.
+1. Your program must support four mathematical operations: addition `+`, subtraction `-`, multiplication `*`, and division `/`.
+2. The operands and the result may contain hidden digits, indicated by the symbol `?`.
+3. The program should not output zeros if they are in front of a full number.
+4. Additionally, implement error handling such as wrong number of arguments, invalid operation, invalid operands and result.
 
-## Примечания
+## Notes
 
-- В разделе "Act: Basic" программа должна работать только с положительными значениями.
-- Программа должна учитывать деление по модулю в случае евклидового деления.
+- In the "Act: Basic" section, the program must work only with positive values.
+- The program must take into account modulo division in case of Euclidean division.
 
-## Запуск
+## Run
 
 make
 ./part_of_the_matrix [operand1] [operation] [operand2] [result]
 
-## Примеры использования
+## Examples of use
 
-### Ошибки
+### Errors
 
 ./part_of_the_matrix | cat -e
 usage: ./part_of_the_matrix [operand1] [operation] [operand2] [result]$
@@ -43,7 +43,7 @@ Invalid operation: ??$
 ./part_of_the_matrix "???" "??" "XXX" "1?0" | cat -e
 Invalid operation: ??$
 
-### Результаты
+### Results
 
 ./part*of_the_matrix "343111" "- " "??????" "32410" | cat -e
 343111 - 310701 = 32410$
@@ -59,6 +59,6 @@ Invalid operation: ??$
 8 \_ 11 = 88$
 9 \* 11 = 99$
 
-## Актуальность
+## Relevance
 
-Составлено в рамках проекта [ucode](https://lms.khpi.ucode-connect.study/) в сотрудничестве с [CBLWorld](https://lms.khpi.ucode-connect.study/). #ucode #CBLWorld
+Compiled as part of the [ucode](https://lms.khpi.ucode-connect.study/) project in collaboration with [CBLWorld](https://lms.khpi.ucode-connect.study/). #ucode #CBLWorld
