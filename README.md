@@ -2,7 +2,7 @@
 
 ## Participants
 
-- **Timelid**: [rosinnii](https://lms.khpi.ucode-connect.study/users/rosinnii)
+- **TeamLead**: [rosinnii](https://lms.khpi.ucode-connect.study/users/rosinnii)
 - **Participant**: [voryshchuk](https://lms.khpi.ucode-connect.study/users/voryshchuk)
 
 ## Description
