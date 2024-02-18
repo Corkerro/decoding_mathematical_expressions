@@ -50,18 +50,18 @@ usage: ./part_of_the_matrix [operand1] [operation] [operand2] [result]$
 ```sh
 ./part_of_the_matrix "xxx" "+" "?0?" "1?0" | cat -e
 ```
-Invalid operand: xxx$  
+**Invalid operand: xxx$**  
 
 
 ```sh
 ./part_of_the_matrix "xxx" "??" "?0?" "1?0" | cat -e
 ```
-<font color="red">Invalid operation: ??</font>$  
+**Invalid operation: ??$**
  
 ```sh
 ./part_of_the_matrix "???" "??" "XXX" "1?0" | cat -e
 ```
-Invalid operation: ??$  
+**Invalid operation: ??$**
 
 ### Results
 
@@ -69,6 +69,7 @@ Invalid operation: ??$
 ./part*of_the_matrix "343111" "- " "??????" "32410" | cat -e
 ```
 343111 - 310701 = 32410$  
+  
 
 ```sh
 ./part_of_the_matrix "?" "*" "11" "??" | cat -e
