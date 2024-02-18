@@ -42,30 +42,46 @@ make
 
 ### Errors
 
+```sh
 ./part_of_the_matrix | cat -e
-usage: ./part_of_the_matrix [operand1] [operation] [operand2] [result]$
+```
+usage: ./part_of_the_matrix [operand1] [operation] [operand2] [result]$  
+
+```sh
 ./part_of_the_matrix "xxx" "+" "?0?" "1?0" | cat -e
-Invalid operand: xxx$
+```
+Invalid operand: xxx$  
+
+```sh
 ./part_of_the_matrix "xxx" "??" "?0?" "1?0" | cat -e
-Invalid operation: ??$
+```
+Invalid operation: ??$  
+
+```sh
 ./part_of_the_matrix "???" "??" "XXX" "1?0" | cat -e
-Invalid operation: ??$
+```
+Invalid operation: ??$  
 
 ### Results
 
+```sh
 ./part*of_the_matrix "343111" "- " "??????" "32410" | cat -e
-343111 - 310701 = 32410$
+```
+343111 - 310701 = 32410$  
+
+```sh
 ./part_of_the_matrix "?" "*" "11" "??" | cat -e
-0 _ 11 = 0$
-1 _ 11 = 11$
-2 _ 11 = 22$
-3 _ 11 = 33$
-4 _ 11 = 44$
-5 \_ 11 = 55$
-6 _ 11 = 66$
-7 _ 11 = 77$
-8 \_ 11 = 88$
-9 \* 11 = 99$
+```
+0 _ 11 = 0$  
+1 _ 11 = 11$  
+2 _ 11 = 22$  
+3 _ 11 = 33$  
+4 _ 11 = 44$  
+5 \_ 11 = 55$  
+6 _ 11 = 66$  
+7 _ 11 = 77$  
+8 \_ 11 = 88$  
+9 \* 11 = 99$  
 
 ## Relevance
 
